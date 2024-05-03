@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 96%;
+}
+a{
+    /* text-decoration: none; */
+    color: #000000;
+}
+
+/* prompt-suggestions-area-start */
+
+.Prompt{
+    margin-top: 20px;
+}
+
+.prompt-suggestions-row-1{
+    display: flex;
+    margin-top: 20px;
+}
+.prompt-suggestions-colum-1{
+    flex: 4;
+    background-color: #EDB731;
+    margin-right: 20px;
+    border-radius: 25px;
+    padding: 10px;
+}
+.prompt-suggestions-colum-2{
+    flex: 8;
+    background-color: #EDB731;
+    border-radius: 25px;
+    padding: 10px;
+}
+.prompt-suggestions-row-2{
+    display: flex;
+    margin-top: 20px;
+}
+.prompt-suggestions-colum-3{
+    flex: 6;
+    background-color: #EDB731;
+    margin-right: 20px;
+    border-radius: 25px;
+    padding: 10px;
+}
+.prompt-suggestions-colum-4{
+    flex: 3;
+    background-color: #EDB731;
+    border-radius: 25px;
+    padding: 10px;
+    margin-right: 20px;
+}
+.prompt-suggestions-colum-5{
+    flex: 3;
+    background-color: #EDB731;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+/* prompt-suggestions-area-end */
+
+/* best creations area start */
+
+.best-creations-area{
+    margin: 30px;
+}
+
+.best-creations-text{
+    margin-bottom: 65px;
+}
+
+.best-creations-text h1{
+    color:#EDB731 ;
+    font-size: 58px;
+    font-family: Poppins;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.best-creations-text p{
+    color:#000000 ;
+    font-size: 24px;
+    font-family: Roboto;
+    text-align: center;
+    margin: 14px 0;
+}
+.best-creations-images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.image-1 img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.image-2 img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.image-3 img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.img-text-1{
+    padding: 12px;
+    margin-top: -70px;
+    background-color: #EDB731;
+    text-align: center;
+    border-radius:0 0 10px 10px;
+    position: relative;
+}
+
+.img-text-1 p{
+    font-size: 16px;
+    color: #222222;
+    font-family: "Roboto", sans-serif;
+}
+
+.img-text-1 h2{
+    font-size: 30px;
+    color: #222222;
+    font-family: "Roboto", sans-serif;
+}
+.img-text-1 h3{
+    font-size: 24px;
+    color: #222222;
+    font-family: "Roboto", sans-serif;
+}
+
+.img-text-2{
+    padding: 12px;
+    margin-top: -70px;
+    background-color: #EDB731;
+    text-align: center;
+    border-radius:0 0 10px 10px;
+    position: relative;
+}
+
+.img-text-2 p{
+    font-size: 16px;
+    color: #222222;
+    font-family: "Roboto", sans-serif;
+}
+
+.img-text-2 h2{
+    font-size: 30px;
+    color: #222222;
+    font-family: "Roboto", sans-serif;
+}
+.img-text-2 h3{
+    font-size: 24px;
+    color: #222222;
+    font-family: "Roboto", sans-serif;
+}
+.img-text-3{
+    padding: 12px;
+    margin-top: -70px;
+    background-color: #EDB731;
+    text-align: center;
+    border-radius:0 0 10px 10px;
+    position: relative;
+}
+
+.img-text-2 p{
+    font-size: 16px;
+    color: #222222;
+    font-family: "Roboto", sans-serif;
+}
+
+.img-text-2 h2{
+    font-size: 30px;
+    color: #222222;
+    font-family: "Roboto", sans-serif;
+}
+.img-text-2 h3{
+    font-size: 24px;
+    color: #222222;
+    font-family: "Roboto", sans-serif;
+}
+
+.best-creation-btn{
+    margin: 50px 0;
+    text-align: center;
+}
+
+.best-creation-btn p{
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 10px;
+}
+.logIn-btn{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    background-color: #EDB731;
+    border: 0;
+    width: 237px;
+    padding: 5px;
+    border-radius: 14px;
+}
+
+/* best creations area end */
+
+
+@media screen and (max-width: 876px) {
+
+    /* prompt-suggestions-area-start */
+
+    .prompt-suggestions-row-1{
+        flex-direction: column;
+
+    }
+
+    .prompt-suggestions-colum-1{
+        margin-bottom: 15px;
+    }
+
+    .prompt-suggestions-row-2{
+        flex-direction: column;
+
+    }
+
+    .prompt-suggestions-colum-4{
+        margin: 15px 0;
+    }
+
+    /* prompt-suggestions-area-start */
+
+}
+
+
+
